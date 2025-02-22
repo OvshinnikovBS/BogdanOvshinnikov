@@ -6,7 +6,7 @@
 
 Установка гостевых дополнений
 
-![Uploading изображение.png…]()
+![Без имени](https://github.com/user-attachments/assets/f43aed0f-cd3d-4707-8da0-6556894d96de)
 
 
 
