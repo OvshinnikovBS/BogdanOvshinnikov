@@ -10,7 +10,6 @@
 •  При установки операционной системы выбраем английский язык.
 
 
-
 1. Установка гостевых дополнений
    
 ![Без имени](https://github.com/user-attachments/assets/f43aed0f-cd3d-4707-8da0-6556894d96de)
@@ -80,3 +79,9 @@
 `docker-compose --version`
 
 ![Без имени](https://github.com/user-attachments/assets/4ac5456a-c13f-4896-a32b-7c85edb3628e)
+
+10. Следующим шагом скачиваются все файлы и историю изменений из репозитория git.
+
+`git clone https://github.com/skl256/grafana_stack_for_docker.git`
+
+![Без имени](https://github.com/user-attachments/assets/e9125995-3e4a-4fb8-b7c3-fd2a2703dfa9)
