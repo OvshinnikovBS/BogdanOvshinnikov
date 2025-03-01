@@ -17,18 +17,22 @@
 `sudo yum install wget`
 
 Возникла ошибка:
+
 ![Без имени](https://github.com/user-attachments/assets/59f9a79c-535b-44b5-bfd5-bfb73e4d2154)
 
 Решение:
+
 ![Без имени](https://github.com/user-attachments/assets/2878f5a5-7901-4a67-9785-8122c732bfce)
 
 Успешная установка:
+
 ![Без имени](https://github.com/user-attachments/assets/ebaf268f-95d1-4270-adfd-5cc058ef2b68)
 
 
 3. Следующим шагом является установка утилиты curl (в данном случае она уже установлена, данной командй выполняется проверка этого)
 
 `sudo yum install curl`
+
 ![Без имени](https://github.com/user-attachments/assets/a68b7174-5a82-4093-ba22-98167aad066b)
 
 
