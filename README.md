@@ -15,8 +15,7 @@
   
 `sudo yum install wget`
 
-![Uploading Без имени.jpg…]()
-
+blob:https://web.telegram.org/767ccb91-2dfa-4fc7-9a5b-c2cdd6bc51c2
 
 3. Следующим шагом является установка утилиты curl (в данном случае она уже установлена, данной командй выполняется проверка этого)
 
