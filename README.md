@@ -76,6 +76,7 @@
 9. Последующая команда предоставляет права на выполнение файлу /usr/bin/docker-compose, а так же выполняется команда, выводящая на экран информацию о версии установленного Docker Compose.
 
 Команда:`sudo chmod +x /usr/bin/docker-compose`
+
 Команда:`docker-compose --version`
 
 ![Без имени](https://github.com/user-attachments/assets/4ac5456a-c13f-4896-a32b-7c85edb3628e)
