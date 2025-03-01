@@ -62,14 +62,17 @@
 
 `COMVER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4)`
 
-![Без имени](https://github.com/user-attachments/assets/4bc29882-4e26-4f76-80fe-442a5e1fac17)
+![Без имени](https://github.com/user-attachments/assets/e22d9f53-eaed-4329-95b7-a08a1346f4c4)
 
 8. После выполнения следующей команды, исполняемый файл Docker Compose будет доступен для запуска.
 
 `sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose`
 
+![Без имени](https://github.com/user-attachments/assets/4bc29882-4e26-4f76-80fe-442a5e1fac17)
 
 9. Последующая команда предоставляет права на выполнение файлу /usr/bin/docker-compose, а так же выполняется команда, выводящая на экран информацию о версии установленного Docker Compose.
 
 `sudo chmod +x /usr/bin/docker-compose`
 `docker-compose --version`
+
+![Без имени](https://github.com/user-attachments/assets/4ac5456a-c13f-4896-a32b-7c85edb3628e)
