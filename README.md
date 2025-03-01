@@ -1,4 +1,4 @@
-# BogdanOvshinnikov
+# BogdanOvshinnikov К-ИСП-39-1
 Установливаем Linux Oracle на VirtualBox, для этого нужно:
 •  Иметь образ Linux;
 •  Выделить 4 ядер;
