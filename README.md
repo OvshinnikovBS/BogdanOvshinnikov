@@ -41,20 +41,28 @@
 
 `sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo`
 
+![Без имени](https://github.com/user-attachments/assets/f8d89986-ee4a-4228-b008-6b14c0808a32)
+
+
 5. Последующим шагом является использование команды, которая устанавливает необходимые компоненты Docker
 
 `sudo yum install docker-ce docker-ce-cli containerd.io`
 
+![Без имени](https://github.com/user-attachments/assets/62755360-da2b-420c-b464-d6d44be036ef)
+
+![Без имени](https://github.com/user-attachments/assets/4f03e6b9-efe6-4817-93f0-427e60ce5a8c)
 
 6. Далее запускается команда, которая делает две вещи: включает Docker для автоматического запуска при каждой загрузке системы, а также немедленно запускает службу Docker.
 
 `sudo systemctl enable docker --now`
 
+![Без имени](https://github.com/user-attachments/assets/1e03f13b-7e62-4402-9518-8be40ee2e2e6)
 
 7. После выполнении команды, переменная COMVER будет содержать версию последнего релиза Docker Compose.
 
 `COMVER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4)`
 
+![Без имени](https://github.com/user-attachments/assets/4bc29882-4e26-4f76-80fe-442a5e1fac17)
 
 8. После выполнения следующей команды, исполняемый файл Docker Compose будет доступен для запуска.
 
