@@ -112,13 +112,26 @@
 
 
 16. Эта команда использует утилиту chown для изменения владельца (owner) и группы (group) файлов и каталогов.
-    
+
+![изображение](https://github.com/user-attachments/assets/fc6f7b2d-2220-47f9-a169-27917be4564a)
+
 17. Эта команда использует утилиту touch для создания пустого файла.
-    
+
+![изображение](https://github.com/user-attachments/assets/4d39c14f-fa61-4358-a88b-631f9efccc90)
+
 18. Эта команда использует утилиту cp (copy) для копирования файлов.
-    
+
+![изображение](https://github.com/user-attachments/assets/88fe1edf-3e58-4d4a-975e-fafc6876684d)
+
+
 19. Эта команда использует утилиту mv (move) для переименования файла, обычно приводя имя файла к стандартному или ожидаемому.
-    
+
+![изображение](https://github.com/user-attachments/assets/a020b191-af0d-4288-9d5b-40ac09bdc8fa)
+
 20. Эта команда использует docker compose для запуска и управления приложением, определенным в файле docker-compose.yaml. Она позволяет легко разворачивать и управлять сложными Docker-приложениями
     
 -d - Параметр -d в команде docker-compose up означает демонизирование процесса — запуск контейнеров в фоновом режиме.
+
+![Без имени](https://github.com/user-attachments/assets/da266533-2e04-4822-ab14-c87aed6ce8f8)
+
+![Без имени](https://github.com/user-attachments/assets/32826b16-11c2-4d3a-a817-065c38e6a70f)
