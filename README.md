@@ -87,7 +87,9 @@
 
 ![рис 13](https://github.com/user-attachments/assets/e9125995-3e4a-4fb8-b7c3-fd2a2703dfa9)
 
-При выполнении команды выдается ошибка, исправляемая командой sudo yum install git, позволяющей установить пакеты git.
+При выполнении команды выдается ошибка, исправляемая следующей командой, которая позволяет установить пакеты git.
+
+Команда:`sudo yum install git`
 
 ![рис 14](https://github.com/user-attachments/assets/626f6655-4e0a-49b9-aab4-8ce963998555)
 
@@ -99,38 +101,54 @@
 
 
 11. Далее используется утилита cd (change directory) для смены текущего рабочего каталога в командной строке Linux, после чего выполняется ряд команд.
-    
+
+Команда:`cd grafana_stack_for_docker`
+
 ![рис 17](https://github.com/user-attachments/assets/00ed03e0-cc6a-4d8a-a4cc-e2273fc135eb)
 
 12. Эта команда использует утилиту mkdir для создания каталогов (директорий) на файловой системе.
 
+Команда:`sudo mkdir -p /mnt/common_volume/swarm/grafana/config`
+
 ![рис 18](https://github.com/user-attachments/assets/7aee427b-4221-4ad2-a8df-2b1f7b0b4c9c)
 
 13. Эта команда использует утилиту mkdir с опцией -p и расширением фигурных скобок (brace expansion) для создания нескольких каталогов в файловой системе.
+
+Команда:`sudo mkdir -p /mnt/common_volume/grafana/{grafana-config,grafana-data,prometheus-data}`
 
 ![рис 19](https://github.com/user-attachments/assets/4a7e123c-a018-457a-bec8-ba477e566611)
 
 
 14. Эта команда использует утилиту chown для изменения владельца (owner) и группы (group) файлов и каталогов.
 
+Команда:`sudo chown -R $(id -u):$(id -g) {/mnt/common_volume/swarm/grafana/config,/mnt/common_volume/grafana}`
+
 ![рис 20](https://github.com/user-attachments/assets/fc6f7b2d-2220-47f9-a169-27917be4564a)
 
 15. Эта команда использует утилиту touch для создания пустого файла.
 
+Команда:`touch /mnt/common_volume/grafana/grafana-config/grafana.ini`
+
 ![рис 21](https://github.com/user-attachments/assets/4d39c14f-fa61-4358-a88b-631f9efccc90)
 
 16. Эта команда использует утилиту cp (copy) для копирования файлов.
+
+Команда:`cp config/* /mnt/common_volume/swarm/grafana/config/`
 
 ![рис 22](https://github.com/user-attachments/assets/88fe1edf-3e58-4d4a-975e-fafc6876684d)
 
 
 17. Эта команда использует утилиту mv (move) для переименования файла, обычно приводя имя файла к стандартному или ожидаемому.
 
+Команда:`mv grafana.yaml docker-compose.yaml`
+
 ![рис 23](https://github.com/user-attachments/assets/a020b191-af0d-4288-9d5b-40ac09bdc8fa)
 
 18. Эта команда использует docker compose для запуска и управления приложением, определенным в файле docker-compose.yaml. Она позволяет легко разворачивать и управлять сложными Docker-приложениями
-    
--d - Параметр -d в команде docker-compose up означает демонизирование процесса — запуск контейнеров в фоновом режиме.
+
+Команда:`sudo docker compose up -d`
+
+* -d - Параметр -d в команде docker-compose up означает демонизирование процесса — запуск контейнеров в фоновом режиме.
 
 ![рис 24](https://github.com/user-attachments/assets/da266533-2e04-4822-ab14-c87aed6ce8f8)
 
