@@ -158,13 +158,19 @@
 
 Команда:`sudo docker compose stop`
 
+![изображение](https://github.com/user-attachments/assets/22a478f8-17a8-4df8-8d66-d91d865fb7bc)
+
 20. Используемая команда для остановки и удаления контейнеров, сетей и томов, определенных в файле docker-compose.yml.
 
 Команда:`sudo docker compose down`
 
+![изображение](https://github.com/user-attachments/assets/24a9810c-a45e-4a48-a4c8-29caae288fbf)
+
 21. Команда показывает информацию о контейнерах, управляемых Docker Compose, определенных в файле docker-compose.yml.
 
 Команда:`sudo docker compose ps`
+
+![изображение](https://github.com/user-attachments/assets/65434fc3-47fb-43ac-bf32-6a0e7184cf5b)
 
 22. Команда выводит на экран абсолютный путь к текущей рабочей директории.
 
