@@ -153,3 +153,57 @@
 ![рис 24](https://github.com/user-attachments/assets/da266533-2e04-4822-ab14-c87aed6ce8f8)
 
 ![рис 25](https://github.com/user-attachments/assets/32826b16-11c2-4d3a-a817-065c38e6a70f)
+
+19. Команда останавливает запущенные контейнеры без их удаления.
+
+Команда:`sudo docker compose stop`
+
+20. Используемая команда для остановки и удаления контейнеров, сетей и томов, определенных в файле docker-compose.yml.
+
+Команда:`sudo docker compose down`
+
+21. Команда показывает информацию о контейнерах, управляемых Docker Compose, определенных в файле docker-compose.yml.
+
+Команда:`sudo docker compose ps`
+
+22. Команда выводит на экран абсолютный путь к текущей рабочей директории.
+
+Команда:`pwd`
+
+23. При помощи этой команды происходит комирование репрозитория с Github. Также была использована команда ls для просмотра файлов в папке.
+
+Команда:`sudo git clone https://github.com/OvshinnikovBS/BogdanOvshinnikov`
+
+Команда:`ls`
+
+24. Команда предназначена для открытия или создания файла docker-compose.yaml в текстовом редакторе vi с правами суперпользователя (root).
+
+Команда:`sudo vi docker-compose.yaml`
+
+25. Команда также используется для открытия или создания файла с именем prometheus.yaml в текстовом редакторе vi с правами суперпользователя (root).
+
+Команда:`sudo vi prometeus.yaml`
+
+# Grafana
+
+Сайт: localhost:3000 User & Password: admin
+
+Зайдя на сайт выбирается Dashboards для создания Dashboard
+
+
+Следующий шаг: +Add visualization, после Configure a new data source и выбирается Prometheus
+
+
+
+Настройка: Connection: http://prometheus:9090 Authentication: Basic authentication
+
+В завершении Save & test
+
+
+
+Далее, при помощи Import dashboard созданный Dashboard импортируется.
+
+Find and import dashboards for common applications at grafana.com/dashboards: 1860
+
+
+В конце Select Prometheus и Import.
