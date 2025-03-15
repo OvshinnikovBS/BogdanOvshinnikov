@@ -1,4 +1,7 @@
 # BogdanOvshinnikov К-ИСП-39-1
+
+![Без имени](https://github.com/user-attachments/assets/58e2fc47-9866-4cae-b409-433423a098ef)
+
 Установливаем Linux Oracle на VirtualBox, для этого нужно:
 
 •  Иметь образ Linux;
@@ -223,29 +226,48 @@
 
 Зайдя на сайт выбирается Dashboards для создания Dashboard
 
-
 Следующий шаг: +Add visualization, после Configure a new data source и выбирается Prometheus
-
-
 
 Настройка: Connection: http://prometheus:9090 Authentication: Basic authentication
 
 В завершении Save & test
 
-
-
 Далее, при помощи Import dashboard созданный Dashboard импортируется.
 
 Find and import dashboards for common applications at grafana.com/dashboards: 1860
 
-
 В конце Select Prometheus и Import.
-
 
 ![изображение](https://github.com/user-attachments/assets/e1e23bea-22d9-49e7-85e4-8c77d4e4bba0)
 
-![изображение](https://github.com/user-attachments/assets/753f02ff-f032-4619-96b5-fabb685023bc)
+![изображение](https://github.com/user-attachments/assets/e8c695c6-95e3-49fa-aa79-673fb0db6fd7)
 
 
+# VictoriaMetrics
+
+
+
+![изображение](https://github.com/user-attachments/assets/172aaf23-fff5-40e5-a016-a6de9d27e692)
+
+
+![изображение](https://github.com/user-attachments/assets/02402ce1-0429-494d-9415-88f92a1e3c21)
+
+
+![изображение](https://github.com/user-attachments/assets/679cca14-baa7-4824-bbc7-b038fede758f)
+
+
+![изображение](https://github.com/user-attachments/assets/cd0eab69-20d3-48a5-9c0a-f4c2d3299932)
+
+
+![изображение](https://github.com/user-attachments/assets/b64cf07c-4ddd-4a38-be4c-3903b115f646)
+
+
+![изображение](https://github.com/user-attachments/assets/51a9f8e8-4f5f-4154-b835-732169efdde8)
+
+
+![изображение](https://github.com/user-attachments/assets/6ae580bd-68fb-48b9-a026-509f6bb8886d)
+
+
+![изображение](https://github.com/user-attachments/assets/86f5a23d-9281-413b-81d2-f44c00591a7d)
 
 
