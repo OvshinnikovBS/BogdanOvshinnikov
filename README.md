@@ -240,3 +240,12 @@ Find and import dashboards for common applications at grafana.com/dashboards: 18
 
 
 В конце Select Prometheus и Import.
+
+
+![изображение](https://github.com/user-attachments/assets/e1e23bea-22d9-49e7-85e4-8c77d4e4bba0)
+
+![изображение](https://github.com/user-attachments/assets/753f02ff-f032-4619-96b5-fabb685023bc)
+
+
+
+
