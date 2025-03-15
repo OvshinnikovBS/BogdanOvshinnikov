@@ -178,19 +178,44 @@
 
 Команда:`pwd`
 
+![изображение](https://github.com/user-attachments/assets/9989c873-a2a1-49d4-9610-6e6ec4826aa7)
+
+
 23. При помощи этой команды происходит комирование репрозитория с Github. Также была использована команда ls для просмотра файлов в папке.
 
 Команда:`sudo git clone https://github.com/OvshinnikovBS/BogdanOvshinnikov`
 
+![изображение](https://github.com/user-attachments/assets/466697e8-27ef-4f60-8123-3c9a0c484b24)
+
+
 Команда:`ls`
+
+![изображение](https://github.com/user-attachments/assets/d88975fc-0615-46cb-a5dd-4cdc4081aa87)
 
 24. Команда предназначена для открытия или создания файла docker-compose.yaml в текстовом редакторе vi с правами суперпользователя (root).
 
 Команда:`sudo vi docker-compose.yaml`
 
+![изображение](https://github.com/user-attachments/assets/e38d7d79-54a1-49b5-913b-62f4e508ceba)
+
+
+![изображение](https://github.com/user-attachments/assets/8eaf990d-f22a-456e-a556-c878f2b06acf)
+
+![изображение](https://github.com/user-attachments/assets/1bb37458-22e6-4fc3-961a-cd3129d77966)
+
+![изображение](https://github.com/user-attachments/assets/bc76ec91-5e8d-485d-83fd-ea7d8018d4fb)
+
+![изображение](https://github.com/user-attachments/assets/355e279f-1d96-4b18-becb-d20d099e48b6)
+
 25. Команда также используется для открытия или создания файла с именем prometheus.yaml в текстовом редакторе vi с правами суперпользователя (root).
 
 Команда:`sudo vi prometeus.yaml`
+
+![изображение](https://github.com/user-attachments/assets/0729b9b4-7c99-4dbf-8432-1d89ac95210f)
+
+
+![изображение](https://github.com/user-attachments/assets/968019af-b185-40aa-9806-49b6b032e185)
+
 
 # Grafana
 
