@@ -170,7 +170,8 @@
 
 Команда:`sudo docker compose ps`
 
-![изображение](https://github.com/user-attachments/assets/6ca4355b-ff0f-4219-ae12-0b8a0e90e9da)
+![изображение](https://github.com/user-attachments/assets/2445f67b-054c-4de4-96ad-e3c37f8ebe17)
+
 
 
 22. Команда выводит на экран абсолютный путь к текущей рабочей директории.
