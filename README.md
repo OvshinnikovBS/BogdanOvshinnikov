@@ -268,6 +268,6 @@ Find and import dashboards for common applications at grafana.com/dashboards: 18
 ![изображение](https://github.com/user-attachments/assets/6ae580bd-68fb-48b9-a026-509f6bb8886d)
 
 
-![изображение](https://github.com/user-attachments/assets/86f5a23d-9281-413b-81d2-f44c00591a7d)
+
 
 
