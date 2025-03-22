@@ -235,6 +235,8 @@
 
 ![422938456-3a1c545e-dd4f-4b31-9104-4b01e0021932](https://github.com/user-attachments/assets/2748d3b5-8b8c-4276-b2a4-c64ffe55dad8)
 
+![изображение](https://github.com/user-attachments/assets/f667d885-45d9-4500-9e72-6efa16cd3fbb)
+
 ![422938923-16011d77-5f71-4432-81b9-831c8fe6c8ec](https://github.com/user-attachments/assets/438e806c-0d59-4d54-bc87-107a5907a9fa)
 
 Настройка: Connection: http://prometheus:9090 Authentication: `Basic authentication`
@@ -256,6 +258,8 @@
 В конце `Select Prometheus` и `Import`.
 
 ![422946716-16f0b5c2-882f-4871-be5a-0bae49f5d6eb](https://github.com/user-attachments/assets/91576945-7f79-45d4-8000-926229c4a27e)
+
+Получаем следующий результат
 
 ![изображение](https://github.com/user-attachments/assets/e8c695c6-95e3-49fa-aa79-673fb0db6fd7)
 
