@@ -1,6 +1,6 @@
 # BogdanOvshinnikov К-ИСП-39-1
 
-![Без имени](https://github.com/user-attachments/assets/58e2fc47-9866-4cae-b409-433423a098ef)
+![рис 0](https://github.com/user-attachments/assets/58e2fc47-9866-4cae-b409-433423a098ef)
 
 Установливаем Linux Oracle на VirtualBox, для этого нужно:
 
@@ -161,19 +161,19 @@
 
 Команда:`sudo docker compose stop`
 
-![изображение](https://github.com/user-attachments/assets/22a478f8-17a8-4df8-8d66-d91d865fb7bc)
+![рис 26](https://github.com/user-attachments/assets/22a478f8-17a8-4df8-8d66-d91d865fb7bc)
 
 20. Используемая команда для остановки и удаления контейнеров, сетей и томов, определенных в файле docker-compose.yml.
 
 Команда:`sudo docker compose down`
 
-![изображение](https://github.com/user-attachments/assets/24a9810c-a45e-4a48-a4c8-29caae288fbf)
+![рис 27](https://github.com/user-attachments/assets/24a9810c-a45e-4a48-a4c8-29caae288fbf)
 
 21. Команда показывает информацию о контейнерах, управляемых Docker Compose, определенных в файле docker-compose.yml.
 
 Команда:`sudo docker compose ps`
 
-![изображение](https://github.com/user-attachments/assets/2445f67b-054c-4de4-96ad-e3c37f8ebe17)
+![рис 28](https://github.com/user-attachments/assets/2445f67b-054c-4de4-96ad-e3c37f8ebe17)
 
 
 
@@ -181,43 +181,41 @@
 
 Команда:`pwd`
 
-![изображение](https://github.com/user-attachments/assets/9989c873-a2a1-49d4-9610-6e6ec4826aa7)
+![рис 29](https://github.com/user-attachments/assets/9989c873-a2a1-49d4-9610-6e6ec4826aa7)
 
 
 23. При помощи этой команды происходит комирование репрозитория с Github. Также была использована команда ls для просмотра файлов в папке.
 
 Команда:`sudo git clone https://github.com/OvshinnikovBS/BogdanOvshinnikov`
 
-![изображение](https://github.com/user-attachments/assets/466697e8-27ef-4f60-8123-3c9a0c484b24)
+![рис 30](https://github.com/user-attachments/assets/466697e8-27ef-4f60-8123-3c9a0c484b24)
 
 
 Команда:`ls`
 
-![изображение](https://github.com/user-attachments/assets/d88975fc-0615-46cb-a5dd-4cdc4081aa87)
+![рис 31](https://github.com/user-attachments/assets/d88975fc-0615-46cb-a5dd-4cdc4081aa87)
 
 24. Команда предназначена для открытия или создания файла docker-compose.yaml в текстовом редакторе vi с правами суперпользователя (root).
 
 Команда:`sudo vi docker-compose.yaml`
 
-![изображение](https://github.com/user-attachments/assets/e38d7d79-54a1-49b5-913b-62f4e508ceba)
+![рис 32](https://github.com/user-attachments/assets/e38d7d79-54a1-49b5-913b-62f4e508ceba)
 
+![рис 33](https://github.com/user-attachments/assets/8eaf990d-f22a-456e-a556-c878f2b06acf)
 
-![изображение](https://github.com/user-attachments/assets/8eaf990d-f22a-456e-a556-c878f2b06acf)
+![рис 34](https://github.com/user-attachments/assets/1bb37458-22e6-4fc3-961a-cd3129d77966)
 
-![изображение](https://github.com/user-attachments/assets/1bb37458-22e6-4fc3-961a-cd3129d77966)
+![рис 35](https://github.com/user-attachments/assets/bc76ec91-5e8d-485d-83fd-ea7d8018d4fb)
 
-![изображение](https://github.com/user-attachments/assets/bc76ec91-5e8d-485d-83fd-ea7d8018d4fb)
-
-![изображение](https://github.com/user-attachments/assets/355e279f-1d96-4b18-becb-d20d099e48b6)
+![рис 36](https://github.com/user-attachments/assets/355e279f-1d96-4b18-becb-d20d099e48b6)
 
 25. Команда также используется для открытия или создания файла с именем prometheus.yaml в текстовом редакторе vi с правами суперпользователя (root).
 
 Команда:`sudo vi prometeus.yaml`
 
-![изображение](https://github.com/user-attachments/assets/0729b9b4-7c99-4dbf-8432-1d89ac95210f)
+![рис 37](https://github.com/user-attachments/assets/0729b9b4-7c99-4dbf-8432-1d89ac95210f)
 
-
-![изображение](https://github.com/user-attachments/assets/968019af-b185-40aa-9806-49b6b032e185)
+![рис 38](https://github.com/user-attachments/assets/968019af-b185-40aa-9806-49b6b032e185)
 
 
 # Grafana
@@ -225,78 +223,80 @@
 1. Переходим на сайт: `localhost:3000` 
 2. Вводим user & password: `admin`
 
-![422935761-d29cf7a6-17e6-4dec-8ec9-4bab9042a95a](https://github.com/user-attachments/assets/c03fb91f-c890-4a53-b2ea-a02787e2032b)
+![рис 39](https://github.com/user-attachments/assets/c03fb91f-c890-4a53-b2ea-a02787e2032b)
 
 3. Зайдя на сайт выбирается `Dashboards` для создания Dashboard
 
-![423066991-e1e23bea-22d9-49e7-85e4-8c77d4e4bba0](https://github.com/user-attachments/assets/c552ade2-c990-4581-847d-9aa89255b6d2)
+![рис 40](https://github.com/user-attachments/assets/c552ade2-c990-4581-847d-9aa89255b6d2)
 
 4. Следующий шаг: нажимаем `+Add visualization`, после `Configure a new data source` и выбирается `Prometheus`
 
-![422938456-3a1c545e-dd4f-4b31-9104-4b01e0021932](https://github.com/user-attachments/assets/2748d3b5-8b8c-4276-b2a4-c64ffe55dad8)
+![рис 41](https://github.com/user-attachments/assets/2748d3b5-8b8c-4276-b2a4-c64ffe55dad8)
 
-![изображение](https://github.com/user-attachments/assets/f667d885-45d9-4500-9e72-6efa16cd3fbb)
+![рис 42](https://github.com/user-attachments/assets/f667d885-45d9-4500-9e72-6efa16cd3fbb)
 
-![422938923-16011d77-5f71-4432-81b9-831c8fe6c8ec](https://github.com/user-attachments/assets/438e806c-0d59-4d54-bc87-107a5907a9fa)
+![рис 43](https://github.com/user-attachments/assets/438e806c-0d59-4d54-bc87-107a5907a9fa)
 
 5. Настройка: Connection: http://prometheus:9090 Authentication: `Basic authentication`
 
-![изображение](https://github.com/user-attachments/assets/f3b52d45-f21c-42b0-beae-12da9a5499a2)
+![рис 44](https://github.com/user-attachments/assets/f3b52d45-f21c-42b0-beae-12da9a5499a2)
 
-![422939674-d06d4bb1-31b7-4134-96da-1ad69f3f585f](https://github.com/user-attachments/assets/ec9dabfd-328f-46a4-aadc-b4f7b3ba46bc)
+![рис 45](https://github.com/user-attachments/assets/ec9dabfd-328f-46a4-aadc-b4f7b3ba46bc)
 
 6. В завершении `Save & test`
 
-![422939795-967a704c-572d-42ae-b128-5ae825ec659b](https://github.com/user-attachments/assets/5cd04a2f-8143-4f6f-bbc1-e70a78c4d663)
+![рис 46](https://github.com/user-attachments/assets/5cd04a2f-8143-4f6f-bbc1-e70a78c4d663)
 
 7. Далее, при помощи `Import dashboard` созданный Dashboard импортируется.
 
+![рис 47](https://github.com/user-attachments/assets/4f64aa6d-ed21-4d77-b9c6-7619d01450ad)
+
 8. В строке `Find and import dashboards for common applications at grafana.com/dashboards` пишем `1860`
 
-![422945491-167d4d85-c661-4a78-a389-a11474759266](https://github.com/user-attachments/assets/9587999c-17cb-4342-bbf9-bbbdbbc2d0ea)
+![рис 48](https://github.com/user-attachments/assets/9587999c-17cb-4342-bbf9-bbbdbbc2d0ea)
 
 9. В конце `Select Prometheus` и `Import`.
 
-![422946716-16f0b5c2-882f-4871-be5a-0bae49f5d6eb](https://github.com/user-attachments/assets/91576945-7f79-45d4-8000-926229c4a27e)
+![рис 49](https://github.com/user-attachments/assets/91576945-7f79-45d4-8000-926229c4a27e)
 
 10. Получаем следующий результат
 
-![изображение](https://github.com/user-attachments/assets/e8c695c6-95e3-49fa-aa79-673fb0db6fd7)
+![рис 50](https://github.com/user-attachments/assets/e8c695c6-95e3-49fa-aa79-673fb0db6fd7)
 
 
 # VictoriaMetrics
 
 1. Victoria Metrics создаем также как и Prometheus только меняем URl на `http://victoriametrics:8428` и ставим `No autentification`
 
-![423075451-7f13072f-8373-413f-822c-8275cc5dfc28](https://github.com/user-attachments/assets/a6d8a73e-5c51-48a4-a4a5-2fd8f458a291)
+![рис 51](https://github.com/user-attachments/assets/a6d8a73e-5c51-48a4-a4a5-2fd8f458a291)
 
 2. Возращаемся на пару шагов назад и выбираем имя которое мы указали
 
-![423075613-172aaf23-fff5-40e5-a016-a6de9d27e692](https://github.com/user-attachments/assets/50c3c4b1-8956-4c63-b743-64d9069f8a65)
+![рис 52](https://github.com/user-attachments/assets/50c3c4b1-8956-4c63-b743-64d9069f8a65)
 
 3. Выбираем `Victoriametrics` и смоотрим результат
 
-![изображение](https://github.com/user-attachments/assets/216d0421-c242-43d3-a8a3-785afa671844)
+![рис 53](https://github.com/user-attachments/assets/216d0421-c242-43d3-a8a3-785afa671844)
 
-![423076235-679cca14-baa7-4824-bbc7-b038fede758f](https://github.com/user-attachments/assets/7933541b-bc5f-49a6-a9f6-540e3c4e68f0)
+![рис 54](https://github.com/user-attachments/assets/7933541b-bc5f-49a6-a9f6-540e3c4e68f0)
 
 4. Далее вводим следующую команду
     
 Команда: `echo -e "# TYPE light_metric1 gauge\nlight_metric1 0" | curl --data-binary @- http://localhost:8428/api/v1/import/prometheus`
 
-![423076893-cd0eab69-20d3-48a5-9c0a-f4c2d3299932](https://github.com/user-attachments/assets/84d11d15-d7e1-4595-afed-58164b705bc9)
+![рис 55](https://github.com/user-attachments/assets/84d11d15-d7e1-4595-afed-58164b705bc9)
 
 5. Потом переходим на Victoria metrics и выбираем `vmui`
 
-![423078324-6ae580bd-68fb-48b9-a026-509f6bb8886d](https://github.com/user-attachments/assets/a1948d14-f998-44de-904d-40fb23956f8c)
+![рис 56](https://github.com/user-attachments/assets/a1948d14-f998-44de-904d-40fb23956f8c)
 
 6. Вводим в строку `light_metric1`
 
-![423077682-b64cf07c-4ddd-4a38-be4c-3903b115f646](https://github.com/user-attachments/assets/e1c898db-7e57-4cd6-94be-dcebf70da975)
+![рис 57](https://github.com/user-attachments/assets/e1c898db-7e57-4cd6-94be-dcebf70da975)
 
 7. Переходим обратно в Grafana и вставляем в строку `light_metric1` и нажимаем `Run queries`
 
-![423078230-51a9f8e8-4f5f-4154-b835-732169efdde8](https://github.com/user-attachments/assets/abd2a40a-5c10-4910-b6f8-ae82e6107c4f)
+![рис 58](https://github.com/user-attachments/assets/abd2a40a-5c10-4910-b6f8-ae82e6107c4f)
 
 
 
