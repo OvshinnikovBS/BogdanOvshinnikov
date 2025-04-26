@@ -299,9 +299,85 @@
 ![рис 58](https://github.com/user-attachments/assets/abd2a40a-5c10-4910-b6f8-ae82e6107c4f)
 
 
+# Создаем новую виртуальную машину
 
 
 
+Устанавливаем гостевые дополнения и вводим все те же команды `sudo yum install wget`
 
+![изображение](https://github.com/user-attachments/assets/99c55b30-bbbf-4b3d-83c3-dd127527dd5f)
+
+`sudo yum install curl`
+
+![изображение](https://github.com/user-attachments/assets/33ddff54-bbef-4888-b357-4c84c067350d)
+
+`sudo yum install git`
+
+![изображение](https://github.com/user-attachments/assets/ca045388-bd12-49fb-8238-452b742df843)
+
+![изображение](https://github.com/user-attachments/assets/f5051b7a-f309-4e2e-9cc8-f4d20714935d)
+
+sudo firewall-cmd --state
+
+![изображение](https://github.com/user-attachments/assets/5fc622b4-23e3-4c1c-9e5c-fb810192a1b4)
+
+sudo yum install tar
+
+![изображение](https://github.com/user-attachments/assets/d8609455-3023-4ebf-9cfd-74b9bf0a64c7)
+
+sudo yum install chrony
+
+![изображение](https://github.com/user-attachments/assets/5472bfb8-1252-4057-95c2-0a3d0c4e44b4)
+
+systemctl enable chronyd - включает chrony 
+systemctl start chronyd - запускает chrony
+
+![изображение](https://github.com/user-attachments/assets/e193a162-bb30-40b6-8974-942c6ad4ff2b)
+
+При вводе команды getenforce был получен ответ Enforcing, вседствие чего пришлось использовать команды для отключения getenforce.
+
+sudo setenforce 0 - отключает SELinux (Security-Enhanced Linux) в системе sudo sed -i 's/^SELINUX=.*/SELINUX=disabled/g' /etc/selinux/config - редактирует файл /etc/selinux/config и устанавливает SELinux в режим disabled
+
+![изображение](https://github.com/user-attachments/assets/f6ce4340-9f9d-46ea-b4f8-3a121d8d785d)
+
+![изображение](https://github.com/user-attachments/assets/0e2f1f99-9c04-42ae-bcf3-c7c4dca5b2d4)
+
+![изображение](https://github.com/user-attachments/assets/6ec548b7-c546-4643-98ac-ac2197a0d1b5)
+
+После был скачан Prometheus. 3.3.0 / 2025-04-15 при помощи команды wget https://github.com/prometheus/prometheus/releases/download/v3.3.0/prometheus-3.3.0.linux-amd64.tar.gz
+
+![изображение](https://github.com/user-attachments/assets/05455f22-24fb-4781-bf4f-bd38ec81b2b6)
+
+sudo mkdir -p /etc/prometheus /var/lib/prometheus
+
+![изображение](https://github.com/user-attachments/assets/b0da627a-e83b-4709-9ce7-aa8c4d8ad4a8)
+
+Командой tar -zxf prometheus-*.linux-amd64.tar.gz был разархивирован файл, а после командой cd prometheus-*.linux-amd64 был омуществлен переход в папку prometheus-*.linux-amd64.
+
+![изображение](https://github.com/user-attachments/assets/74a010bf-5a45-4fe7-8f39-72e05b51bf46)
+
+![изображение](https://github.com/user-attachments/assets/9c6100e8-c7db-4d50-9d0c-af45ae4725e9)
+
+Для проверки корректности папки была использована команда pwd
+
+![изображение](https://github.com/user-attachments/assets/d51bf11a-4d03-44e9-a636-804e59bd041b)
+
+Следующими командами файлы Prometheus были скопированны в системные директории.
+
+sudo cp prometheus promtool /usr/local/bin/ sudo cp prometheus.yml /etc/prometheus/
+
+![изображение](https://github.com/user-attachments/assets/c85ab8b8-596f-421b-a488-aa5ed6aaa787)
+
+![изображение](https://github.com/user-attachments/assets/16956a65-70d3-4683-987c-b48e75128f4e)
+
+Используя двойную команду осуществляется удаляение файлов и директорий, связанные с Prometheus.
+
+cd .. && rm -rf prometheus-*.linux-amd64/ && rm -f prometheus-*.linux-amd64.tar.gz
+
+![изображение](https://github.com/user-attachments/assets/76efddd8-6d80-4677-8037-0ae0fc2ae8e4)
+
+Также было проверено содержимое директории командой ls -l.
+
+![изображение](https://github.com/user-attachments/assets/33a807dc-ffe7-4555-ba3f-67f2a7fe199b)
 
 
